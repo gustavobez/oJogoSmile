@@ -1,0 +1,120 @@
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#principal {
+  text-align: center;
+  padding: 30px;
+  background: #2c3e50;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #eeff00;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.inicial {
+  text-align: center;
+  font-size: 100px;
+  background-color: #34495e;
+  color: #ecf0f1;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #27ae60;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.inicial:hover {
+  background-color: #2980b9;
+  border-color: #3498db;
+}
+
+.acertou {
+  text-align: center;
+  color: #fff;
+  background-color: #eeff00;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #60ad21;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.errou {
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+  background-color: #e74c3c;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #c0392b;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#resposta {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #9034db;
+  border: none;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #9ece2f;
+}
+
+button:active {
+  background-color: #1f308d;
+}
+
+.invisivel {
+  display: none;
+}
+
+.visivel {
+  display: inline;
+}
+
+.card-container {
+  position: relative;
+}
+
+.card-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
